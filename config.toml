@@ -1,4 +1,4 @@
-baseURL                          = "https://activityspacelab.github.io/"   # Your domain name. Must end with "/"
+baseURL                          = "https://activityspacelab.com/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 languageCode = 'en-us'
 title = 'Activity-Space Lab'
