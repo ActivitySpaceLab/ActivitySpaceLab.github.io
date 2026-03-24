@@ -1,0 +1,39 @@
+/* About section layout overrides */
+#about .markdown {
+  text-align: left;
+}
+
+#about .markdown p,
+#about .markdown ul,
+#about .markdown ol,
+#about .markdown li {
+  text-align: left;
+}
+
+#about .about-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+#about .about-logos > img {
+  max-width: 220px;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #about .about-logos > img {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  #about .about-logos > img {
+    max-width: 140px;
+  }
+}
