@@ -26,14 +26,27 @@
   height: auto;
 }
 
+#about .about-logos > img:first-child {
+  max-width: none;
+  height: calc(220px * 201 / 480);
+}
+
 @media (max-width: 768px) {
   #about .about-logos > img {
     max-width: 180px;
+  }
+
+  #about .about-logos > img:first-child {
+    height: calc(180px * 201 / 480);
   }
 }
 
 @media (max-width: 480px) {
   #about .about-logos > img {
     max-width: 140px;
+  }
+
+  #about .about-logos > img:first-child {
+    height: calc(140px * 201 / 480);
   }
 }
