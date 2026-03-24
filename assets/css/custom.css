@@ -11,6 +11,9 @@
 }
 
 #about .about-logos {
+  --about-second-logo-width: 220;
+  --about-second-logo-height: 201;
+  --about-second-logo-original-aspect-width: 480;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,13 +29,26 @@
   height: auto;
 }
 
+#about .about-logos > img:first-child {
+  max-width: none;
+  height: calc(var(--about-second-logo-width) * 1px * var(--about-second-logo-height) / var(--about-second-logo-original-aspect-width));
+}
+
 @media (max-width: 768px) {
+  #about .about-logos {
+    --about-second-logo-width: 180;
+  }
+
   #about .about-logos > img {
     max-width: 180px;
   }
 }
 
 @media (max-width: 480px) {
+  #about .about-logos {
+    --about-second-logo-width: 140;
+  }
+
   #about .about-logos > img {
     max-width: 140px;
   }
