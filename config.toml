@@ -7,7 +7,7 @@ title = 'Activity-Space Lab'
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
-    footerText = "© 2026 John R.B. Palmer<br><br>This website is built and maintained by [John Palmer](https://johnrbpalmer.com) using Hugo and the [**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/), which is made with [<i class=\"fa fa-heart\"></i> and <i class=\"fa fa-coffee\"></i>](https://victoria.dev) by open source contributors. The Activity-Space Lab was created through the support of Grant CNS2022-135646, funded by MCIN/AEI/10.13039/501100011033 and by the European Union NextGenerationEU/PRTR."
+    footerText = "© 2026 John R.B. Palmer<br><br>This website is built and maintained by [John Palmer](https://johnrbpalmer.com) using Hugo and the [**Introduction**](https://github.com/victoriadrake/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/), which is made with [<i class=\"fa fa-heart\"></i> and <i class=\"fa fa-coffee\"></i>](https://victoria.dev) by open source contributors. The Activity-Space Lab was created through the support of Grant CNS2022-135646, funded by MCIN/AEI/10.13039/501100011033 and by the European Union NextGenerationEU/PRTR. It is also funded by the AGAUR through the ICREA Acadèmia program."
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showMenu                     = true                    # Show navigation menu
