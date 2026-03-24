@@ -1,0 +1,27 @@
+/* About section layout overrides */
+#about .markdown {
+  text-align: left;
+}
+
+#about .markdown p,
+#about .markdown ul,
+#about .markdown ol,
+#about .markdown li {
+  text-align: left;
+}
+
+#about .about-logos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+#about .about-logos > img {
+  max-width: min(220px, 40vw);
+  width: auto;
+  height: auto;
+}
