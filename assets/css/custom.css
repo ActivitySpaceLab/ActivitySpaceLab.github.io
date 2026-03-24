@@ -27,6 +27,8 @@
   max-width: 220px;
   width: auto;
   height: auto;
+  box-shadow: none;
+  filter: none;
 }
 
 #about .about-logos > img:first-child {
