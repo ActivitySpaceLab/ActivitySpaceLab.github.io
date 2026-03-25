@@ -57,3 +57,8 @@
     max-width: 140px;
   }
 }
+
+/* Footer text alignment override */
+#footer .has-text-centered {
+  text-align: left;
+}
